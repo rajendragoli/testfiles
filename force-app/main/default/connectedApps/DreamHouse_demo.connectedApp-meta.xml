@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>rgoli147@gmail.com</contactEmail>
+    <label>DreamHouse_demo</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <consumerKey>3MVG9szVa2RxsqBaC1T6g6WV.43PytaxUFQZSy9XuI2J7f0ZZd2QoVxmgxc_95HnENDBZONzAgmInZ7yvwM_S</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <profileName>Standard User</profileName>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
