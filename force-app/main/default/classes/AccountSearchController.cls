@@ -10,11 +10,12 @@ public with sharing class AccountSearchController {
                     BillingStreet, BillingCity,
                     BillingState, BillingPostalCode
                     ORDER BY Name
-                    LIMIT 10
+                    LIMIT 20
                 )
             ];
             accounts = searchResults[0];
         }
+        //this is a comment
         return accounts;
     }
 }
