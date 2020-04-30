@@ -68,3 +68,4 @@ stage('Run Apex Test') {
 stage('collect results') {
     junit keepLongStdio: true, testResults: 'tests/**/*-junit.xml'
 }
+}
