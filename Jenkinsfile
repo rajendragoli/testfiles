@@ -18,8 +18,13 @@ def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
     println CONNECTED_APP_CONSUMER_KEY
     def toolbelt = tool 'toolbelt'
 	
-	sh '\Users\rajen\Documents/script.sh'
-
+stage('Setting the variables values') {
+    steps {
+         bash '''#!/bin/bash
+                 echo "hello world" 
+         '''
+    }
+}
 stage('checkout source') {
     // when running in multi-branch job, one must issue this command
     checkout scm
